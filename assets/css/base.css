@@ -1,0 +1,57 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+    --primary-color: #b7f2fb;
+    --icon-color: #304cfd;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+
+@keyframes sliderTop {
+    from {
+        transform: translateY(-280px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes sliderLeft {
+    from {
+        transform: translateX(-220%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes sliderRight {
+    from {
+        transform: translateX(120%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
