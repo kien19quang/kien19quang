@@ -131,6 +131,9 @@
         display: none;
     }
 
+    .content__menu .content__item-wrap {
+        animation: none;
+    }
 
 }
 
